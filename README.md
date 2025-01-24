@@ -16,3 +16,18 @@ some functionality that Django provides as a framework, without using Django its
   - Powered by a WSGI Python application as backend part.
   - Uses Nginx as a reverse proxy and Gunicorn as the application server.
 
+```
+/blog/
+    /app/ - WSGI Aplication
+        ...
+    /src/ - User data
+        /post_name_1/
+            post.md
+            img_1.jpg
+        /post_name_2/
+            post.md
+            img_1.jpg
+    /nginx/
+        nginx.conf
+    compose.yml
+```
