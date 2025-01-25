@@ -1,4 +1,4 @@
-# Blog  
+# Blog  2
 
 A simple blog platform where users can create folders with Markdown files to generate HTML pages based on 
 templates dynamically. In order to understand Django more clearly, the goal of this project is to write 
